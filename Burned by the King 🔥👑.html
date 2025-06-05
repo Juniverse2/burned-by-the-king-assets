@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#wall -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burned by the King 🔥👑</title>
+<style>
+  body {
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+  }
+  header {
+    background-color: #111;
+    padding: 1em;
+    border-bottom: 3px solid red;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: #ff0000;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto 3em auto;
+    padding: 0 1em;
+    text-align: left;
+  }
+  .card-section {
+    margin: 40px auto;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: nowrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .card {
+    width: 180px;
+    height: 180px;
+    background: white;
+    color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 0 8px rgba(255,0,0,0.5);
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  .card:hover,
+  .card:focus {
+    transform: scale(1.05);
+    outline: none;
+    box-shadow: 0 0 12px 3px #ff0000aa;
+  }
+  .card.blue {
+    background: #007bff;
+    color: white;
+    font-size: 18px;
+    width: 220px;
+  }
+  section {
+    padding: 2em 0;
+    border-top: 1px solid #333;
+  }
+  h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  .menu-img, .campaign-img {
+    max-width: 90%;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #ff0000cc;
+    display: block;
+  }
+  .qna dt {
+    font-weight: bold;
+    margin-top: 1em;
+    cursor: pointer;
+    border-bottom: 1px solid #444;
+    padding: 10px;
+    transition: background-color 0.2s ease;
+    outline-offset: 4px;
+  }
+  .qna dt:hover,
+  .qna dt:focus {
+    background-color: #220000;
+    outline: none;
+  }
+  .qna dd {
+    margin: 0 0 1em 0;
+    padding: 10px;
+    background-color: #220000;
+    border-radius: 5px;
+  }
+  .flame-counter, .loyalty-program, .hashtag-wall {
+    background-color: #1a1a1a;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff0000bb inset;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .submit-box textarea {
+    width: 90%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    resize: none;
+  }
+  .submit-box button {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 0 12px #ff0000aa;
+    transition: background-color 0.3s ease;
+  }
+  .submit-box button:hover,
+  .submit-box button:focus {
+    background-color: #cc0000;
+    outline: none;
+  }
+  footer {
+    margin: 3em 0;
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+  }
+  /* Q&A accessibility */
+  .qna dt:focus {
+    cursor: pointer;
+  }
+</style>
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+
+<header>
+  <h1 style="text-align:center;">🔥 Burned by the King 👑</h1>
+  <nav style="text-align:center;">
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#cards">Roast Cards</a>
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#menu">New Menu</a>
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#campaigns">Past Campaigns</a>
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#qna">Dumb Questions</a>
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#loyalty">Loyalty</a>
+    <a href="file:///C:/Users/emile/OneDrive/Documents/english/bkburn.html#wall">#Wall</a>
+  </nav>
+</header>
+
+<main>
+<section id="cards" class="card-section">
+  <h2>Roast Generator</h2>
+  <div class="cards" role="list" aria-label="Roast Cards">
+    <div tabindex="0" role="listitem" class="card red" id="red1" aria-label="Red roast card 1" onclick="shuffleCards()" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) shuffleCards()">Your Whopper looks like it was cooked by a toddler.</div>
+    <div tabindex="0" role="listitem" class="card red" id="red2" aria-label="Red roast card 2" onclick="shuffleCards()" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) shuffleCards()">You put the 'fail' in flame-grilled.</div>
+    <div tabindex="0" role="listitem" class="card blue" id="blue1" aria-label="Blue roast card" onclick="shuffleCards()" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) shuffleCards()">Whopper or not, you can’t top these _ _ _ _.</div>
+    <div tabindex="0" role="listitem" class="card red" id="red3" aria-label="Red roast card 3" onclick="shuffleCards()" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) shuffleCards()">McDonald's called; they want their marketing back.</div>
+    <div tabindex="0" role="listitem" class="card red" id="red4" aria-label="Red roast card 4" onclick="shuffleCards()" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) shuffleCards()">If your brand were any colder, it’d be ice cream.</div>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>🔥 NEW MENU: The Burn Pack 🔥</h2>
+  <p style="text-align:center;">Includes the Black Flame Burger, Ash Fries, and a mystery dark shake.<br>
+  Every pack comes with 1 of 10 exclusive roast card sets (5 blue / 15 red). Collect all 10.</p>
+  <img class="menu-img" src="https://i.imgur.com/ZZbN461.png" alt="New Burned by the King menu">
+</section>
+
+<section id="campaigns">
+  <h2>🔥 Past Marketing Crimes 🔥</h2>
+  <p style="text-align:center; max-width:700px; margin: 0 auto 1em auto;">
+    Burger King's most infamous campaigns have either set the marketing world on fire or burnt it down:
+  </p>
+  <div style="text-align:center; max-width:700px; margin: 0 auto;">
+    <img class="campaign-img" src="https://i.imgur.com/ch82IWL.png" alt="Whopper Detour campaign">
+    <p><strong>Whopper Detour:</strong> Offered Whoppers for 1 cent—but only if you ordered near a McDonald's. A bold digital move that went viral but left many confused in line.</p>
+
+    <img class="campaign-img" src="https://i.imgur.com/FW3Hme6.png" alt="Moldy Whopper campaign">
+    <p><strong>Moldy Whopper:</strong> Showed a burger rotting over 34 days to prove no preservatives were used. Shocking, gross, and effective—but it left many customers craving anything but.</p>
+
+    <img class="campaign-img" src="https://i.imgur.com/IEBkVpH.png" alt="Subservient Chicken campaign">
+    <p><strong>Subservient Chicken:</strong> An interactive campaign featuring a person in a chicken suit obeying typed commands. Quirky and memorable, it built massive online buzz back in the day.</p>
+  </div>
+</section>
+
+<section id="qna" class="qna" aria-label="Frequently Asked Questions">
+  <h2>Dumb Questions People Ask</h2>
+  <dl>
+    <dt tabindex="0" aria-expanded="true" aria-controls="a1" role="button" onclick="toggleQ(this)" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) toggleQ(this)">Why does the flame taste better than the burger?</dt>
+    <dd id="a1">Because the flame is the only thing that’s truly hot here.</dd>
+
+    <dt tabindex="0" aria-expanded="true" aria-controls="a2" role="button" onclick="toggleQ(this)" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) toggleQ(this)">Can I get a refund if I get roasted too hard?</dt>
+    <dd id="a2">Only if you can prove you have a thicker skin than the King.</dd>
+
+    <dt tabindex="0" aria-expanded="true" aria-controls="a3" role="button" onclick="toggleQ(this)" onkeypress="if(event.key===&#39;Enter&#39; || event.key===&#39; &#39;) toggleQ(this)">Do the loyalty points come with extra burns?</dt>
+    <dd id="a3">Yes, but be warned: the more points you have, the hotter the shade.</dd>
+  </dl>
+</section>
+
+<section id="loyalty" class="loyalty-program" aria-label="Loyalty Program">
+  <h2>🔥 Loyalty Program (Burned Points)</h2>
+  <p>Sign up and get a parody "Burned Points" account where every purchase gets you closer to exclusive insults, discounts, and even a crown emoji badge 👑.</p>
+  <button onclick="alert(&#39;Sorry, sign-up coming soon!&#39;)">Join the Burn Club</button>
+</section>
+
+<section id="wall" class="hashtag-wall" aria-label="Community Burn Wall">
+  <h2>🔥 #BurnedByTheKing Wall</h2>
+  <p>Submit your best burns and read the top roasts from the community.</p>
+  <div class="submit-box" aria-live="polite">
+    <textarea id="burnText" aria-label="Write your burn here" placeholder="Type your best burn here..."></textarea>
+    <br>
+    <button onclick="submitBurn()">Submit Your Burn</button>
+  </div>
+  <ul id="burnList" style="list-style:none; padding: 0; max-width: 700px; margin: 1em auto 0 auto; text-align:left;"></ul>
+</section>
+</main>
+
+<footer>
+  <p>© 2025 Burned by the King. All burns are 🔥 and rights reserved.</p>
+</footer>
+
+<script>
+  // Pools of red and blue cards
+  const redCardsPool = [
+    "Your Whopper looks like it was cooked by a toddler.",
+    "You’re the reason flame-grilled means 'burnt'.",
+    "Tried to order a burger, got a fire hazard instead.",
+    "Your marketing is as fresh as yesterday’s fries.",
+    "If your brand were any colder, it’d be ice cream.",
+    "That slogan was so bad it burned my eyes.",
+    "You put the 'fail' in flame-grilled.",
+    "Your Whopper has less flavor than a cardboard box.",
+    "McDonald's called; they want their marketing back.",
+    "Is your flame-grill actually just a lighter?",
+    "Your campaigns are toast, and not the good kind.",
+    "Your roast is so weak, I forgot it mid-sentence.",
+    "Burger King’s only crown is for the worst marketer.",
+    "Your food is so cold, it needs a sweater.",
+    "Your ads look like they were made in MS Paint."
+  ];
+
+  // Blue cards now have a blank in the phrase, simulate CAH style with "_ _ _ _"
+  const blueCardsPool = [
+    "I like my burgers like my jokes: _ _ _ _ and well done.",
+    "Serving burns hotter than your _ _ _ _ grill.",
+    "Keep calm and get roasted by the _ _ _ _.",
+    "The crown fits, but your _ _ _ _ doesn’t.",
+    "Serving up burns since _ _ _ _.",
+    "Flame-grilled shade, fresh every _ _ _ _.",
+    "Your ads need a fire _ _ _ _.",
+    "Whopper or not, you can’t top these _ _ _ _.",
+    "Try harder, or get burned _ _ _ _.",
+    "We don’t just flame grill food, we flame grill _ _ _ _."
+  ];
+
+  // Current cards on display, use these IDs to update text
+  const redCardIds = ["red1", "red2", "red3", "red4"];
+  const blueCardId = "blue1";
+
+  // Shuffle function using Fisher-Yates
+  function shuffleArray(arr) {
+    let array = arr.slice(); // copy array
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  // Shuffle and update card texts
+  function shuffleCards() {
+    // Shuffle red cards, pick 4 random unique red cards
+    const shuffledReds = shuffleArray(redCardsPool).slice(0, 4);
+    redCardIds.forEach((id, idx) => {
+      const card = document.getElementById(id);
+      card.textContent = shuffledReds[idx];
+    });
+
+    // Shuffle blue cards and pick 1
+    const shuffledBlues = shuffleArray(blueCardsPool);
+    const blueCard = document.getElementById(blueCardId);
+    blueCard.textContent = shuffledBlues[0];
+  }
+
+  // Q&A toggle function
+  function toggleQ(dt) {
+    const expanded = dt.getAttribute('aria-expanded') === 'true';
+    dt.setAttribute('aria-expanded', !expanded);
+    const dd = document.getElementById(dt.getAttribute('aria-controls'));
+    if (dd) {
+      dd.hidden = expanded; // show if was hidden, hide if was shown
+    }
+  }
+
+  // Burn submission logic
+  const burnList = document.getElementById('burnList');
+  function submitBurn() {
+    const textArea = document.getElementById('burnText');
+    const text = textArea.value.trim();
+    if (!text) {
+      alert("Please write a burn before submitting!");
+      return;
+    }
+    const li = document.createElement('li');
+    li.textContent = text;
+    burnList.prepend(li);
+    textArea.value = "";
+    textArea.focus();
+  }
+
+  // On load initialize cards and show all Q&A answers
+  window.onload = () => {
+    shuffleCards();
+    // Show all Q&A answers expanded by default
+    document.querySelectorAll('.qna dd').forEach(dd => dd.hidden = false);
+  };
+</script>
+
+
+
+</body></html>
